@@ -13,7 +13,6 @@ Syntax highlighted code block
 
 #网页设计课程
 ## 姓名：汪丽梦
-### Header 3
 
 - Bulleted
 - List
