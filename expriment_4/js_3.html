@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><uiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script language=javascript>
+var go_on,x,y,result,answer,name,score=0;
+name=prompt("请输入您的名字：")
+
+  do {
+     x = Math.floor(Math.random() *100);
+     y = Math.floor(Math.random() *100);
+     result = x+y;
+     answer = parseFloat(prompt(x + "+" + y + "=","0"));
+     go_on = confirm(((answer==result)?"答对":"答错") +"！\t继续测试吗?");
+	 if(answer==result)(score=score+1);
+  }while(go_on)
+document.writeln("尊敬的"+name+":您的得分是"+score)
+</script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>
