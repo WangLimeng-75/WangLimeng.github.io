@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+
+
+<script src="jquery.min.js">
+</script>
+<script>
+ $(document).ready(function(){
+  $("#hide").click(function(){
+  $("p").hide();
+  alert("The paragraph is now hidden");
+  });
+  
+  $("#show").click(function(){
+  $("p").show();
+  alert("The paragraph is now shown");
+  });
+});
+</script>
+
+</head>
+
+<body>
+<p id="p1">如果点击“隐藏”按钮，我就会消失。</p>
+<p id="p1">如果点击“显示”按钮，我就会出现。</p>
+<button id="hide" type="button">隐藏</button>
+<button id="show" type="button">显示</button>
+</body>
+</html>
